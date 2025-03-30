@@ -45,7 +45,7 @@ public class EmployeeServiceStub {
         return employee.orElse(null);
     }
 
-    public Employee saveEmployee(Employee newEmployee){
+    public int saveEmployee(Employee newEmployee){
     
         File file = new File(FILE_PATH);
         List<Employee> employees = new ArrayList<>();
@@ -58,17 +58,17 @@ public class EmployeeServiceStub {
                 newEmployee.getJoiningdate() == null ||
                 newEmployee.getDateofbirth() == null ||
                 newEmployee.getDepartment() == null){
-            return null;
+            return -1;
         }
         newEmployee.setId(employees.size());        
         employees.add(newEmployee);
         
         try{
             objectMapper.writeValue(file, employees);
-            return newEmployee;
+            return newEmployee.getId();
         } catch(IOException e){
             e.printStackTrace();
-            return null;
+            return -1;
         }
         
     }

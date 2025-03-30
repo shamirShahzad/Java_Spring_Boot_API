@@ -1,6 +1,7 @@
 
 package com.exam.employee;
 
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import org.springframework.http.HttpStatus;
@@ -36,12 +37,14 @@ public class EmployeeController {
     }
     
     @PostMapping("/add")
-    public ResponseEntity<Employee> addEmployee(@RequestBody Employee employee){
-        Employee newEmployee = employeeServiceStub.saveEmployee(employee);
-        if(newEmployee == null){
+    public ResponseEntity<Map<String,Object>> addEmployee(@RequestBody Employee employee){
+        int newEmployeeId = employeeServiceStub.saveEmployee(employee);
+        if(newEmployeeId == -1){
             return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body(null);
         }
-        return ResponseEntity.ok(newEmployee);
+        Map<String,Object> response = new HashMap<>();
+        response.put("id", newEmployeeId);
+        return ResponseEntity.ok(response);
     }
     
     @GetMapping

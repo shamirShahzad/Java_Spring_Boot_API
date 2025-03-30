@@ -1,8 +1,1 @@
-[
-    {"id":0,"firstname":"Shamir","lastname":"Shahzad","department":"IT","dateofbirth":"2000-08-04","joiningdate":"2025-03-30","salary":100.0},
-    {"id":1,"firstname":"Ashna","lastname":"Shahzad","department":"IT","dateofbirth":"2000-08-04","joiningdate":"2025-03-30","salary":600.0},
-    {"id":2,"firstname":"Rayha","lastname":"Shahzad","department":"IT","dateofbirth":"2000-08-04","joiningdate":"2025-03-30","salary":1000.0},
-    {"id":3,"firstname":"Minahil","lastname":"Faisal","department":"IT","dateofbirth":"2000-08-04","joiningdate":"2025-03-30","salary":2000.0},
-    {"id":4,"firstname":"Moeez","lastname":"Faisal","department":"IT","dateofbirth":"2000-08-04","joiningdate":"2025-03-30","salary":1500.0},
-    {"id":5,"firstname":"Jenan","lastname":"Yaqoob","department":"HR","dateofbirth":"2000-08-04","joiningdate":"2025-03-30","salary":3500.0}
- ]
+[{"id":0,"firstname":"Shamir","lastname":"Shahzad","department":"IT","dateofbirth":"2000-08-04","joiningdate":"2025-03-30","salary":100.0},{"id":1,"firstname":"Ashna","lastname":"Shahzad","department":"IT","dateofbirth":"2000-08-04","joiningdate":"2025-03-30","salary":600.0},{"id":2,"firstname":"Rayha","lastname":"Shahzad","department":"IT","dateofbirth":"2000-08-04","joiningdate":"2025-03-30","salary":1000.0},{"id":3,"firstname":"Minahil","lastname":"Faisal","department":"IT","dateofbirth":"2000-08-04","joiningdate":"2025-03-30","salary":2000.0},{"id":4,"firstname":"Moeez","lastname":"Faisal","department":"IT","dateofbirth":"2000-08-04","joiningdate":"2025-03-30","salary":1500.0},{"id":5,"firstname":"Jenan","lastname":"Yaqoob","department":"HR","dateofbirth":"2000-08-04","joiningdate":"2025-03-30","salary":3500.0},{"id":6,"firstname":"Sajeel","lastname":"Ahmad","department":"CS","dateofbirth":"2000-08-04","joiningdate":"2025-03-30","salary":1200.0},{"id":7,"firstname":"Imitiaz","lastname":"Ahmad","department":"CS","dateofbirth":"2000-08-04","joiningdate":"2025-03-30","salary":1200.0}]
